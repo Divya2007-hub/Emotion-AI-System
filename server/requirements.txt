@@ -6,3 +6,5 @@ tensorflow==2.21.0
 opencv-python==4.11.0.86
 gunicorn
 whitenoise
+
+psutil
