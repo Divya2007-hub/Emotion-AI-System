@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- START SCREEN -->
+<div id="start-screen" class="screen active">
+    <h1>Emotion Detection System</h1>
+    <button onclick="startApp()">Start</button>
+</div>
+
+<!-- CAMERA SCREEN -->
+<div id="camera-screen" class="screen">
+    <video id="video" autoplay playsinline></video>
+    <button onclick="capture()">Capture</button>
+</div>
+
+<!-- LOADING -->
+<div id="loading-screen" class="screen">
+    <h1>Analyzing...</h1>
+</div>
+
+<!-- RESULT -->
+<div id="result-screen" class="screen">
+    <h1 id="emotion-text"></h1>
+    <img id="emotion-gif" src="" />
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

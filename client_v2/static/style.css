@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.screen {
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.active {
+    display: flex;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#emotion-gif {
+    width: 200px;
+}

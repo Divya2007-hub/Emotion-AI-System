@@ -1,0 +1,52 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Django
+*.log
+staticfiles/
+media/
+
+# Local databases
+db.sqlite3
+*.sqlite3
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test and coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Local test image
+test.jpg
+
+# Report documents accidentally stored in GIF folders
+client/ui/gifs/*.docx
+client/ui/gifs/*.pdf
+client_v2/static/gifs/*.docx
+client_v2/static/gifs/*.pdf
+
+# Keep unused model files out of Git
+server/models_storage/models/Emo0.1.h5
+server/models_storage/models/emotion_model.hdf5
+server/models_storage/models/model1.h5

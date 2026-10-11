@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.screen {
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.active {
+    display: flex;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+video {
+    width: 60%;
+    border-radius: 10px;
+}
+
+#emotion-gif {
+    width: 200px;
+    margin-top: 20px;
+}
